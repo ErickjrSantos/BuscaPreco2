@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BuscaPreco</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">PEG</string>
+    <string name="pese">PESE</string>
+</resources>

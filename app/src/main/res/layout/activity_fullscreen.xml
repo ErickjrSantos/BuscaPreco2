@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3f9b3"
+
+    tools:context="com.example.admin.buscapreco.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="#009c00"
+        android:textSize="50sp"
+        android:textStyle="bold">
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/fullscreen_content2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="215dp"
+        android:keepScreenOn="true"
+        android:text="@string/pese"
+        android:textColor="#005c00"
+        android:textSize="50sp"
+        android:textStyle="bold">
+
+
+    </TextView>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="bottom"
+        android:visibility="visible"
+        android:hint="produto" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo"
+        android:fitsSystemWindows="true">
+
+
+        <RelativeLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/preco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="160dp"
+            android:layout_marginLeft="800dp"
+            android:textColor="@color/black_overlay"
+            android:editable="false"
+            android:textSize="80dp" />
+
+        <EditText
+            android:id="@+id/nome_produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:textColor="@color/colorAccent"
+            android:editable="false"
+            android:textSize="70dp" />
+
+    </FrameLayout>
+
+
+</FrameLayout>
