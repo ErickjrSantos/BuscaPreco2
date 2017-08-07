@@ -77,18 +77,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="160dp"
-            android:layout_marginLeft="800dp"
+            android:layout_marginBottom="170dp"
+            android:textAlignment="center"
             android:textColor="@color/black_overlay"
+            
             android:editable="false"
-            android:textSize="80dp" />
+            android:textSize="100dp" />
 
         <EditText
             android:id="@+id/nome_produto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="280dp"
+            android:layout_marginTop="200dp"
             android:textColor="@color/colorAccent"
+            android:textAlignment="center"
             android:editable="false"
             android:textSize="70dp" />
 
